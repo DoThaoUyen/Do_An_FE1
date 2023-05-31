@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ Án - FE1</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="top-header">
+        <!-- header-text-1 -->
+        <div class="header-text-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6 header-text-1-left">
+                        <a href="Clock" class="item-clock"><i class="fa-solid fa-clock"></i>Mon - Fri: 9:00 - 19:00/
+                            Closed on Weekends</a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 header-text-1-right text-end">
+                        <a href="Facebook" class="item-icon"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href="Instagram" class="item-icon"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="Twitter" class="item-icon"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a href="Youtube" class="item-icon"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="clearfix"></div> -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-menu" id="navbar-menu">
+            <div class="container">
+                <div class="col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                        <!-- logo -->
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <img src="public/images/logo.png" alt="best-store">
+                        </div>
+                        <!-- end -->
+                        <!-- menu -->
+                        <div class="col-md-9 col-sm-4 col-4">
+                            <div id="navbar-toggle">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <div class="collapse navbar-collapse ">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#">Home Page 01</a>
+                                            <hr>
+                                            <a href="#">Home Page 02</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Servers</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#">Servers</a>
+                                            <hr>
+                                            <a href="#">Servers Details</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Pages</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#">Gallery</a>
+                                            <hr>
+                                            <a href="#">Faq</a>
+                                            <hr>
+                                            <a href="#">Team</a>
+                                            <hr>
+                                            <a href="#">Shop</a>
+                                            <hr>
+                                            <a href="#">Shop Details</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#">Home Page 01</a>
+                                            <hr>
+                                            <a href="#">Home Page 02</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">BOOK A TABLE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <div class="align-center justify-center banner">
+            <!-- <div class="banner-btn-1"><i class="fa-solid fa-chevron-left"></i>
+            </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 col-12">
+                        <div class="banner-text">
+                            <h5 class="banner-text-1">Welcome To Bruin Cafe</h5>
+                            <h2 class="banner-text-2">Enjoy Your Morning Coffee Shot</h2>
+                            <p>Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex,
+                                dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                        </div>
+                        <div class="banner-button">
+                            <a href="#" class="btnBookATable">BOOK A TABLE</a>
+                            <a href="#" class="btnVisitOurShop">VISIT OUR SHOP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="banner-btn-2">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div> -->
+            <a class="prev"><i class="fa-solid fa-chevron-left"></i></a>
+            <a class="next"><i class="fa-solid fa-chevron-right"></i></a>
+            <div class="Slides_BG">
+                <img src="public/images/slider_bg_02.png" alt="" style="width:100%">
+            </div>
+            <div class="Slides_BG">
+                <img src="public/images/slider_bg.png" alt="" style="width:100%">
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
+    <div class="content">
+        <div class="row">
+            <div class="content-1">
+                <div class="container py-4">
+                    <div class="col-md-12 col-sm-12 col-12 silde-img-content-1">
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1">
+                            <img src="public/images/b-logo1.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1">
+                            <img src="public/images/b-logo2.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1">
+                            <img src="public/images/b-logo3.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1">
+                            <img src="public/images/b-logo4.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1">
+                            <img src="public/images/b-logo5.png" alt="" class="content-1-photo">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-12 silde-img-content-1-mobile">
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1-mobile">
+                            <img src="public/images/b-logo1.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1-mobile">
+                            <img src="public/images/b-logo2.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1-mobile">
+                            <img src="public/images/b-logo3.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1-mobile">
+                            <img src="public/images/b-logo4.png" alt="" class="content-1-photo">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-12 slide-content-1-mobile">
+                            <img src="public/images/b-logo5.png" alt="" class="content-1-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------- ABOUT US ---------------------------------------->
+        <div class="row">
+            <div class="content-2">
+                <div class="animations-img-02">
+                    <img src="public/images/an-img-02.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <div class="content-2-big">
+                                <img src="public/images/2.png" alt="" class="content-2-small">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <div class="content-2-title">
+                                <div class="content-2-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png"
+                                                alt="img"></span>ABOUT US</h5>
+                                    <h2>Would You Like Delicious Coffee</h2>
+                                </div>
+                                <p>Morbi tortor urna, placerat vel arcu quis, fringilla egestas neque. Morbi sit amet
+                                    porta erat, quis rutrum risus. Vivamus et gravida nibh, quis posuere felis. In
+                                    commodo mi lectus, Integer ligula lorem, finibus vitae lorem vitae tincidunt dolor
+                                    consequat quis.</p>
+                                <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem
+                                    at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis
+                                    posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse
+                                    varius ante eget lorem tempus blandit. Aenean eu vulputate lorem, quis auctor
+                                    lectus.</p>
+                            </div>
+                            <div class="content-2-signature">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <div class="signature">
+                                            <img src="public/images/signature.png" alt="img-signature">
+                                            <h3>Vincent Smith</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-6 text-end">
+                                        <div class="slider-btn">
+                                            <a href="#" class="btnDiscoverMore">DISCOVER MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!------------------------------------- ABOUT US END------------------------------------->
+        <!------------------------------------- OUR FEATURES ------------------------------------>
+        <div class="row bg-content-3">
+            <div class="content-3">
+                <div class="animations-img-01">
+                    <img src="public/images/an-img-01.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <div class="content-3-title">
+                                <div class="content-3-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png"
+                                                alt="img"></span>OUR FEATURES</h5>
+                                    <h2>What We Provide You</h2>
+                                </div>
+                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget
+                                    neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet
+                                    ullamcorper dolor iaculis vel.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12 content-3-sp">
+                            <div class="col-md-3 col-sm-12 col-12">
+                                <div class="content-3-col">
+                                    <img src="public/images/fe-icon01.png" alt="" class="content-3-photo">
+                                    <div class="align-center justify-center">
+                                        <h4>High Quality Coffee</h4>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget
+                                            nunc sit amet.</p>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12">
+                                <div class="content-3-col">
+                                    <img src="public/images/fe-icon04.png" alt="" class="content-3-photo">
+                                    <div class="align-center justify-center">
+                                        <h4>Barista Coffee Shops</h4>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget
+                                            nunc sit amet.</p>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12">
+                                <div class="content-3-col">
+                                    <img src="public/images/fe-icon05.png" alt="" class="content-3-photo">
+                                    <div class="align-center justify-center">
+                                        <h4>Shop Coffee Online</h4>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget
+                                            nunc sit amet.</p>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12">
+                                <div class="content-3-col">
+                                    <img src="public/images/fe-icon06.png" alt="" class="content-3-photo">
+                                    <div class="align-center justify-center">
+                                        <h4>Best Coffe Machine</h4>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget
+                                            nunc sit amet.</p>
+                                        <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------- OUR FEATURES END--------------------------------->
+        <!------------------------------------- CONTACT US--------------------------------------->
+        <div class="row booking">
+            <div class="content-4">
+                <div class="container">
+                    <div class="row bg-content-4">
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <div class="content-4-title">
+                                <div class="content-4-text">
+                                    <h4><span class="circle-left"><img src="public/images/circle-left-w.png"
+                                                alt="img"></span>CONTACT US</h4>
+                                    <h2>Book Your Table Now !</h2>
+                                </div>
+                                <div class="content-4-item-input-1">
+                                    <input class="INPUT-FN" name="text" id="text" placeholder="Firts Name">
+                                </div>
+                                <div class="content-4-item-input-2">
+                                    <input class="INPUT-EMAIL" name="email" id="email" placeholder="Email">
+                                    <input class="INPUT-PHONE" name="tel" id="tel" placeholder="Phone">
+                                </div>
+                                <div class="content-4-item-input-3">
+                                    <input class="INPUT-DATE" name="date" id="date" placeholder="dd/mm/yyyy">
+                                    <select name="INPUT-TIME" class="INPUT-TIME">
+                                        <option value="Time">Time</option>
+                                        <option value="Time1">9:30 PM</option>
+                                        <option value="Time2">10:30 PM</option>
+                                    </select>
+                                </div>
+                                <div class="content-4-item-input-4">
+                                    <a href="#" class="btnBookTableNow">BOOK TABLE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <img src="public/images/booking-img.png" alt="" class="content-4-booking">
+                        </div>
+                        <div class="booking-img">
+                            <img src="public/images/booking-img-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------- CONTACT US END----------------------------------->
+        <!-------------------------------------OUR MENU------------------------------------------>
+        <div class="row">
+            <div class="content-5">
+                <div class="animations-img-04">
+                    <img src="public/images/an-img-04.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <div class="content-5-title">
+                                <div class="content-5-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png" alt="img"></span>OUR MENU</h5>
+                                    <h2>What We Have In Here</h2>
+                                </div>
+                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <div class="content-5-sp">
+                                <ul>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img1.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Coffe Latte </h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$12.90</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img2.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Coffe Americano</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img3.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Macchiato</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img4.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Coffe Mocha</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img5.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Cappuccino</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img6.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Iced Coffe</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img7.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Chocolate Mocha</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img8.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Vanilla Latte</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img1.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Iced Latte</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img3.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Espresso</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img5.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Caramel Latte</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box-sp-content-5">
+                                            <div class="box-sp-content-5-img">
+                                                <img src="public/images/img7.jpg" alt="img">
+                                            </div>
+                                            <div class="box-sp-content-5-text">
+                                                <h5>Cortado</h5>
+                                                <p>Espresso and Light Layer of Crema</p>
+                                            </div>
+                                            <div class="box-sp-content-5-line">
+                                                <hr>
+                                            </div>
+                                            <div class="box-sp-content-5-price">
+                                                <p>$13.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12 text-center">
+                            <div class="btn-content-5">
+                                <a href="#" class="btnDiscoverMore">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------OUR MENU END-------------------------------------->
+        <!-------------------------------------OUR ONLINE SHOP 1 -------------------------------->
+        <div class="row">
+            <div class="content-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="content-6-title">
+                                <div class="content-6-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png"
+                                                alt="img"></span>OUR ONLINE SHOP</h5>
+                                    <h2>Buy Our Featured Products</h2>
+                                </div>
+                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget
+                                    neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet
+                                    ullamcorper dolor iaculis vel.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12 silde-img-content-6">
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img1.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                            <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img2.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img3.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img4.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img5.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img6.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img1.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img2.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img3.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- man hinh mobile -->
+                        <div class="col-md-12 col-sm-12 col-12 silde-img-content-6-mobile">
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img1.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                            <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img2.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img3.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img4.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img5.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img6.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img1.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img2.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-12 slide-content-6-mobile">
+                                <div class="product-content-6">
+                                    <div class="product-content-6-img">
+                                        <a href="#" tabindex="0"><img src="public/images/img3.jpg" alt=""></a>
+                                        <div class="product-content-6-cart text-center">
+                                            <a href="#" tabindex="0">Add Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-text-content-6 pt-30">
+                                        <h4 class="pro-title-cnt-6"><a href="#" tabindex="0">Caramel Macchiato</a></h4>
+                                        <div class="product-price-content-6">
+                                        <span class="old-title-cnt-6">$20</span>
+                                            <span>$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-button-content-6" style="text-align:center">
+                            <span class="slide-dot-6  active" id="0"></span> 
+                            <span class="slide-dot-6 " id="1"></span> 
+                            <span class="slide-dot-6 " id="2"></span> 
+                            <span class="slide-dot-6 " id="3"></span> 
+                            <span class="slide-dot-6 " id="4"></span> 
+                            <span class="slide-dot-6 " id="5"></span> 
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------OUR ONLINE SHOP 1 END----------------------------->
+        <!-------------------------------------OUR ONLINE SHOP 2--------------------------------->
+        <div class="row">
+            <div class="content-7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <div class="content-7-title">
+                                <div class="content-7-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png"
+                                                alt="img"></span>OUR ONLINE SHOP</h5>
+                                    <h2>What Our Clients Says</h2>
+                                </div>
+                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget
+                                    neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet
+                                    ullamcorper dolor iaculis vel.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12 silde-img-content-7">
+                            <div class="col-md-4 col-sm-12 col-12 slide-content-7">
+                                <div class="slide-content-7-info">
+                                    <div class="content-7-author">
+                                       <img src="public/images/testi_avatar.png" alt="img">
+                                       <div class="slide-content-7-name">
+                                           <h6>Jina Nilson</h6>
+                                           <span>Client</span>
+                                       </div>
+                                   </div>
+                                   <div class="slide-content-7-icon">
+                                       <img src="public/images/review-icon.png" alt="img-1">
+                                    </div>
+                                   <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                   <div class="slide-content-7-icon-2">
+                                   <img src="public/images/qt-icon.png" alt="img">
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-12 slide-content-7">
+                                <div class="slide-content-7-info">
+                                    <div class="content-7-author">
+                                       <img src="public/images/testi_avatar_02.png" alt="img">
+                                       <div class="slide-content-7-name">
+                                           <h6>Braitly Dcosta</h6>
+                                           <span>Client</span>
+                                       </div>
+                                   </div>
+                                   <div class="slide-content-7-icon">
+                                       <img src="public/images/review-icon.png" alt="img-1">
+                                    </div>
+                                   <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                   <div class="slide-content-7-icon-2">
+                                   <img src="public/images/qt-icon.png" alt="img">
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-12 slide-content-7">
+                                <div class="slide-content-7-info">
+                                    <div class="content-7-author">
+                                       <img src="public/images/testi_avatar.png" alt="img">
+                                       <div class="slide-content-7-name">
+                                           <h6>Jina Nilson</h6>
+                                           <span>Client</span>
+                                       </div>
+                                   </div>
+                                   <div class="slide-content-7-icon">
+                                       <img src="public/images/review-icon.png" alt="img-1">
+                                    </div>
+                                   <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                   <div class="slide-content-7-icon-2">
+                                   <img src="public/images/qt-icon.png" alt="img">
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-12 slide-content-7">
+                                <div class="slide-content-7-info">
+                                    <div class="content-7-author">
+                                       <img src="public/images/testi_avatar_02.png" alt="img">
+                                       <div class="slide-content-7-name">
+                                           <h6>Braitly Dcosta</h6>
+                                           <span>Client</span>
+                                       </div>
+                                   </div>
+                                   <div class="slide-content-7-icon">
+                                       <img src="public/images/review-icon.png" alt="img-1">
+                                    </div>
+                                   <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                   <div class="slide-content-7-icon-2">
+                                   <img src="public/images/qt-icon.png" alt="img">
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12 silde-img-content-7-mobile">
+                            <div class="col-md-4 col-sm-12 col-12 slide-content-7-mobile">
+                                <div class="slide-content-7-info">
+                                    <div class="content-7-author">
+                                       <img src="public/images/testi_avatar.png" alt="img">
+                                       <div class="slide-content-7-name">
+                                           <h6>Jina Nilson</h6>
+                                           <span>Client</span>
+                                       </div>
+                                   </div>
+                                   <div class="slide-content-7-icon">
+                                       <img src="public/images/review-icon.png" alt="img-1">
+                                    </div>
+                                   <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                   <div class="slide-content-7-icon-2">
+                                   <img src="public/images/qt-icon.png" alt="img">
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-12 slide-content-7-mobile">
+                                <div class="slide-content-7-info">
+                                    <div class="content-7-author">
+                                       <img src="public/images/testi_avatar_02.png" alt="img">
+                                       <div class="slide-content-7-name">
+                                           <h6>Braitly Dcosta</h6>
+                                           <span>Client</span>
+                                       </div>
+                                   </div>
+                                   <div class="slide-content-7-icon">
+                                       <img src="public/images/review-icon.png" alt="img-1">
+                                    </div>
+                                   <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                   <div class="slide-content-7-icon-2">
+                                   <img src="public/images/qt-icon.png" alt="img">
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="slide-button-content-7" style="text-align:center">
+                            <span class="slide-dot-7  active"></span> 
+                            <span class="slide-dot-7"></span> 
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------OUR ONLINE SHOP 2 END----------------------------->
+        <!-------------------------------------COFFEE WE USE------------------------------------->
+        <div class="row">
+            <div class="content-8">
+                <div class="row bg-content-8">
+                    <div class="col-md-2">
+                        <div class="animations-img-05">
+                            <img src="public/images/an-img-05.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-12">
+                        <div class="content-8-title">
+                            <div class="content-8-text">
+                                <h4><span class="circle-left"><img src="public/images/circle-left-w.png"
+                                            alt="img"></span>COFFEE WE USE</h4>
+                                <h2>We Offer Wide Selection of Coffee</h2>
+                                <p>Vestibulum non ornare nunc. Maecenas a metus in est iaculis pretium. Aliquam ullamcorper nibh lacus, ac suscipit ipsum consequat porttitor.</p>
+                            </div>
+                             <div class="content-8-skills-about">
+                                <div class="content-8-skills">
+                                    <div class="content-8-skills-qty">
+                                      <div class="content-8-skills-name">Qulity Production</div>
+                                      <div class="content-8-skills-bar">
+                                        <div class="content-8-skills-per" id="80%" style="width: 80%;"></div>
+                                      </div>
+                                    </div>
+                                     <div class="content-8-skills-main">
+                                      <div class="content-8-skills-name">Maintenance Services</div>
+                                      <div class="content-8-skills-bar">
+                                        <div class="content-8-skills-per" id="90%" style="width: 90%;"></div>
+                                      </div>
+                                    </div>
+                                      <div class="content-8-skills-pro">
+                                      <div class="content-8-skills-name">Product Managment</div>
+                                      <div class="content-8-skills-bar">
+                                        <div class="content-8-skills-per" id="70%" style="width: 70%;"></div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 ">
+                        <img src="public/images/skills-img.png" alt="" class="content-8-skills-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------COFFEE WE USE END-------------------------------->
+        <!-------------------------------------OUR BLOG----------------------------------------->
+        <div class="row">
+            <div class="content-9">
+                <div class="animations-img-06">
+                    <img src="public/images/an-img-06.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <div class="content-9-title">
+                                <div class="content-9-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png"
+                                                alt="img"></span>OUR BLOG</h5>
+                                    <h2>Latest Blog & News</h2>
+                                </div>
+                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget
+                                    neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet
+                                    ullamcorper dolor iaculis vel.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12 content-9-blog">
+                            <div class="col-md-4 col-sm-12 col-12">
+                                <div class="content-9-blog-box">
+                                    <div class="content-9-blog-img">
+                                        <a href="#"><img src="public/images/inner_b1.jpg" alt="img"></a>
+                                    </div>                    
+                                    <div class="content-9-blog-text">    
+                                        <div class="content-9-blog-text-date">
+                                            24th March 2022
+                                        </div>
+                                        <h4><a href="#">Cras accumsan nulla nec lacus ultricies placerat.</a></h4> 
+                                        <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                                        <div class="content-9-blog-text-btn"><a href="#">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-12">
+                                <div class="content-9-blog-box">
+                                    <div class="content-9-blog-img">
+                                        <a href="#"><img src="public/images/inner_b2.jpg" alt="img"></a>
+                                    </div>                    
+                                    <div class="content-9-blog-text">    
+                                        <div class="content-9-blog-text-date">
+                                            24th March 2022
+                                        </div>
+                                        <h4><a href="#">Cras accumsan nulla nec lacus ultricies placerat.</a></h4> 
+                                        <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                                        <div class="content-9-blog-text-btn"><a href="#">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-12">
+                                <div class="content-9-blog-box">
+                                    <div class="content-9-blog-img">
+                                        <a href="#"><img src="public/images/inner_b3.jpg" alt="img"></a>
+                                    </div>                    
+                                    <div class="content-9-blog-text">    
+                                        <div class="content-9-blog-text-date">
+                                            24th March 2022
+                                        </div>
+                                        <h4><a href="#">Cras accumsan nulla nec lacus ultricies placerat.</a></h4> 
+                                        <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                                        <div class="content-9-blog-text-btn"><a href="#">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------OUR BLOG END ------------------------------------>
+        
+        <!-------------------------------------NEWSLETTER -------------------------------->
+        <div class="row">
+            <div class="content-10"> 
+                <div class="animations-img-07">
+                    <img src="public/images/an-img-07.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-12 ">
+                            <div class="content-10-title">
+                                <div class="content-10-text">
+                                    <h5><span class="circle-left"><img src="public/images/circle-left.png"
+                                                alt="img"></span>NEWSLETTER</h5>
+                                    <h2>Get Best Offers On The Coffee</h2>
+                                </div>
+                                <p>With the subscription, enjoy your favourite coffees without having to think about it</p>
+                            </div>
+                        </div>
+                        <div class="content-10-email">
+                            <input class="content-10-input" type="email" value="" placeholder="Your Email Address">
+                            <button type="submit" class="btn-subcrise">SUBSCRIBE NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------NEWSLETTER END----------------------------->
+        <!-------------------------------------IMG------------------------------------->
+         <div class="row">
+            <div class="content-11 col-sm-12 col-12">
+                <div class="col-md-6 col-sm-12 col-12 bg-content-11">
+                    <img src="public/images/protfolio-img01.png" alt="" class="content-11-img">
+                    <div class="bg-content-11-icon">
+                        <a href="#"><i class="fa-solid fa-plus fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12">
+                    <div class="col-md-12 col-sm-12 col-12 bg-content-11">
+                        <img src="public/images/protfolio-img02.png" alt="" class="content-11-img">
+                        <div class="bg-content-11-icon">
+                            <a href="#"><i class="fa-solid fa-plus fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-12 bg-content-11">
+                        <img src="public/images/protfolio-img03.png" alt="" class="content-11-img-3">
+                        <div class="bg-content-11-icon">
+                            <a href="#"><i class="fa-solid fa-plus fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12">
+                    <div class="col-md-12 col-sm-12 col-12 bg-content-11">
+                        <img src="public/images/protfolio-img04.png" alt="" class="content-11-img-2">
+                        <div class="bg-content-11-icon">
+                            <a href="#"><i class="fa-solid fa-plus fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-12 bg-content-11">
+                        <img src="public/images/protfolio-img05.png" alt="" class="content-11-img-3">
+                        <div class="bg-content-11-icon">
+                            <a href="#"><i class="fa-solid fa-plus fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------IMG END-------------------------------->
+        <!-------------------------------------INFORMATION------------------------------------->
+        <div class="row">
+            <div class="content-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="content-12-col1-img">
+                                <img src="public/images/logo.png" alt="best-store">
+                            </div>
+                            <div class="content-12-col1-contact">
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="fa-solid fa-phone fa-rotate-270"></i></a>
+                                        <span>1800-121-3637<br>+91-7052-101-786</span>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                                        <span>info@example.com<br>help@example.com</span>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                                        <span>1247/Plot No. 39, 15th Phase,<br>LHB Colony, Kanpur</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-12 col-12">
+                            <div class="content-12-col2">Our Links
+                            </div>
+                            <div class="content-12-col2-contact">
+                                <ul>
+                                    <li>
+                                        <span>Home</span>
+                                    </li>
+                                    <li>
+                                        <span>About Us</span>
+                                    </li>
+                                    <li>
+                                        <span>Servers</span>
+                                    </li>
+                                    <li>
+                                        <span>Contact Us</span>
+                                    </li>
+                                    <li>
+                                        <span>Blog</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-12">
+                            <div class="content-12-col3">Our Shop Location
+                            </div>
+                            <div class="content-12-col3-img">
+                                <img src="public/images/bg-content-12.png" alt="best-store">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------INFORMATION END-------------------------------->
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="footer-text">
+                        &copy; Đồ Án - 2023 FIT TDC | Đỗ Thị Thảo Uyên - 22211TT3071
+                    </div> 
+                </div>
+                <div class="col-md-6  col-sm-12 col-12 footer-right text-end">
+                    <a href="Facebook" class="item-icon"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                    <a href="Twitter" class="item-icon"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                    <a href="Instagram" class="item-icon"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script src="public/js/sitescript.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/all.min.js"></script>
+</body>
+
+</html>
